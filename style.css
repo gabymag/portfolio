@@ -56,7 +56,7 @@ h2{
     text-align: center;
     color: white;
   }
-  img{
+  .img-fluid{
       border: 2px solid rgba(211, 209, 209, 0.589);
       margin: 5px 5px;
   }
