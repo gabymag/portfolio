@@ -5,12 +5,10 @@ body{
     background-image: url("paper.png");
     min-height: 300px;
     margin-bottom: 100px;
-
 }
 header{
     background: white;
 }
-
 #Name{
     background: #4aaaa5;
     position: relative;
@@ -21,8 +19,8 @@ header{
     height: 70px;
     text-align: center;  
 }
-h1, h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif
 }
 h1{
     color: white;
@@ -31,33 +29,40 @@ h1{
 h2{
     border-bottom: 2px solid rgb(173, 173, 173);
 }
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
 #about{
     color: #4aaaa5;
     padding: 10px;
 }
-
-#showcase{
+.mycontainer{
     background-color: white;
     padding: 20px;
-    margin: 45px 30px;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 960px;
     border: 1px solid rgb(221, 219, 219);
 }
-
-footer{
-    width: auto;
+.mybutton{
+    background-color: #4aaaa5;
+    border: #4aaaa5;
 }
-.footer{
-    border-top: 3px solid #4aaaa5;
-    background-color: #666666;
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-   font-size: 70%;
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-48%);
+    background-color: #4aaaa5;
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+  }
+  img{
+      border: 2px solid rgba(211, 209, 209, 0.589);
+      margin: 5px 5px;
+  }
+#sticky-footer{
+border-top: 3px solid #4aaaa5;
+position: fixed;
+bottom: 0;
+width: 100%;
 }
-
