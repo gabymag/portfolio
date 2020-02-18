@@ -74,6 +74,5 @@ bottom: 0;
 width: 100%;
 }
 div.contactpage{
-  display: flex;
-  align-items: center
+  text-align: center;
 }
